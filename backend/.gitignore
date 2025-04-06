@@ -1,0 +1,36 @@
+# Ignore any files in /bin and /obj Folders
+**/bin/*
+**/obj/*
+
+# Ignore .vs directory
+**/.vs/*
+**/.vs/Imai/xs/*
+
+# Ignore other common directories and files
+*.log
+*.tmp
+*.user
+*.suo
+*.pdb
+*.cache
+*.ilk
+*.ncb
+*.sdf
+*.opensdf
+*.v12.suo
+*.sln.docstates
+
+# Ignore node_modules (for JavaScript/TypeScript projects)
+node_modules/
+
+# Ignore environment-specific files
+.env
+.env.*.local
+
+# Ignore database files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore publish output
+**/publish/*
